@@ -8,7 +8,7 @@ checkButton.addEventListener("click", function checkLuck() {
     const dob = dobInput.value;
     const luckyNumber = luckyNumberInput.value;
     const sum = calculateSum(dob);
-    if(dob&&sum) {
+    if(dob&&luckyNumber) {
     compareValues(sum, luckyNumber);
     } else {
         result.innerText = "Please insert both the values";
