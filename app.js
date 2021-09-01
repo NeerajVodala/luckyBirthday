@@ -26,8 +26,8 @@ function calculateSum(dob) {
 
 function compareValues(sum, luckyNumber) {
     if (sum % luckyNumber === 0) {
-        result.innerText = "YAY! Your Birthday is lucky";
+        result.innerText = "YAY! Your Birthday is lucky🥳";
     } else {
-        result.innerText = "OOPS! Your Birthday is not lucky";
+        result.innerText = "OOPS! Your Birthday is not lucky😕";
     }
 }
