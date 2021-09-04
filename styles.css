@@ -1,33 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--site-color);
+    color: var(--text-color);
+    margin: 0px;
+}
 
 :root {
-
     --black-color: #000000;
     --text-color: #14213D;
     --fill-color: #FCA311;
     --site-color: #E5E5E5;
+    --no-color: #FFFFFF;
 }
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    background-color: var(--site-color);
+
+.link {
+    text-decoration: none;
+    padding: 0.45rem 1rem;
     color: var(--text-color);
+
 }
 
-body {
-    font-family: 'Lato', sans-serif;
-    min-width: 100vw;
+.list--inline {
+    display: inline;
+
 }
 
 .container {
-    margin: 4rem auto 7rem;
+    margin: 2rem auto 7rem;
     text-align: center;
-    color: var(--text-color);
-}
-
-.heading {
     color: var(--text-color);
 }
 
@@ -68,18 +71,16 @@ body {
 .result {
     display: block;
     font-size: larger;
+    font-weight: bold;
     margin: 1rem 0rem;
 }
-
 footer {
     text-align: center;
 }
 
-footer p {
-    font-size: large;
-    text-align: center;
+hr {
+   width: 80%;
 }
-
 
 
 .footer-list {
@@ -98,9 +99,12 @@ li {
 
 img {
     width: 50px;
-    padding: 0.2rem;
+    padding: 1rem;
 }
 
 .svg--color-change {
     filter: invert(9%) sepia(66%) saturate(1349%) hue-rotate(199deg) brightness(92%) contrast(93%);
+}
+ul {
+    padding-inline-start: 0px;
 }
